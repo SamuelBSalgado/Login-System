@@ -56,3 +56,5 @@ Si bien los IDs autonuméricos también pueden ser adecuados en muchos casos, el
 El parámetro "Salt Rounds" en la librería bcryptjs se refiere a la cantidad de iteraciones o rondas de "sal" que se aplican al algoritmo de hash bcrypt durante el proceso de encriptación de contraseñas.
 En otras palabras, es una librería que agrega caracteres random a la contraseña y se cifra ese nuevo string. "sal" Es el extra random que se le agrega.
 Salt Rounds es la cantidad de veces que se realiza este proceso, con el fin de hacer más segura la contraseña. O sea que define la cantidad de veces que se le agregarán caracteres extras random a la misma contraseña.
+
+Para que el proyecto funcione, debes ajustar los valores de cada variable de entorno (archivos .env) de acuerdo a tú sistema.
