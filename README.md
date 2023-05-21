@@ -28,6 +28,8 @@ The "Salt Rounds" parameter in the bcryptjs library refers to the number of iter
 In other words, it's a library that adds random characters to the password and encrypts that new string. "salt" Is the extra random that is added to it.
 Salt Rounds is the number of times this process is performed, in order to make the password more secure. In other words, it defines the number of times that random extra characters will be added to the same password.
 
+In order to make sure the project works, you must adjust the values ​​of each environment variable (.env files) according to your system.
+
 ## //ESPAÑOL
 ### Descripción del proyecto
 Este es un sistema de loggeo usando json webtokens, node.js, express, cors y otros módulos y librerías.
